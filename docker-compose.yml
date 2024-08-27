@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  face_matcher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: easy_face_matcher
+    ports:
+      - "5003:5003"
+    environment:
+      - PYTHONUNBUFFERED=1
