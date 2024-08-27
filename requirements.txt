@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+face_recognition
+pydantic
